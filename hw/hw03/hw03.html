@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Music </title>
+
+    <style>
+        .music{
+            color: violet;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 50px;
+            cursor: pointer;
+        }
+        hr{
+            border: 0px;
+            height: 70px;
+            background: url(./img/music.png) repeat-x 0 0;
+        }
+        h3{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:violet;
+        }
+        #info {
+            background:#f1a9ff;
+            height: 300px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <a href="./../../index.html"><img src="./img/home.jpg" title="go home" width="50" height="50"></a> &nbsp;
+    <span class="music" onclick="window.open('https://www.melon.com/')">My Music Playlist</span>
+    <hr>
+
+    <center>
+        <img src="./img/musicplay.gif" width="500" hight="400">
+        <h3>"Monsters-Katie Sky"</h3>
+        <audio src="./audio/Monsters-Katie Sky.mp3" controls loop></audio>
+
+    <h3>#Playlist</h3>
+    <div id="info">
+        
+    <table border="2" bordercolor="#ffffff">
+        <tr>
+            <th>category</th>
+            <th>lists</th>
+        </tr>
+        <tr>
+            <th>pop</th>
+            <td>
+                <ul>
+                    <li>Calum Scott - You Are The Reason</li>
+                    <li>Harry Styles - Falling</li>
+                    <li>Michael Schulte - You Said You'd Grow Old with Me</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>utaite</th>
+            <td>
+                <ul>
+                    <li>SPYAIR - Imagination</li>
+                    <li>rionos - ウィアートル(viator)</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>classic</th>
+            <td>
+                <ul>
+                    <li>소현의 자작곡 - 헨리X고소현</li>
+                    <li>Yo-Yo Ma - Bach: Cello Suite No. 1 in G Major, Prélude</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    </div>
+</center>
+
+</body>
+</html>
