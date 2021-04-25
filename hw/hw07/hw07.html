@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>L'étoile</title>
+        <style>
+            #body {
+                overflow: auto;
+            }
+            #logo {
+                margin: 20px 20px 20px 20px;
+            }
+
+            #logo img {
+                width: 315px;
+                height: 90px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #top_left {
+                float: left;
+                margin: 0 0 0 10px;
+            }
+            
+            #top_right {
+                float: right;
+                margin: 0 10px 0 0;
+                font-size: 18px;
+            }
+            #search{
+                float: right;
+                margin: 0 10px 20px 0;
+                width:350px;
+                height:30px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 3px solid black;
+                 
+            }
+            #frontpage {
+                margin: 3% 6% 0 6%;
+                height: 480px;
+                background-color: #52458b;
+                color: white;
+                font-family:inherit;
+                
+                
+            }
+            #frontpage img {
+                width: 800px; 
+                height: 480px;
+                display: block;
+                margin-right: auto;
+                
+            }
+            .s1{
+                font-size: 30px;
+                clear: right;
+            }
+            .s2{
+                font-size: 18px;
+            }
+            #btn {
+                border: 2px solid white;
+                background-color: rgba(0,0,0,0);
+                color:white;
+                padding: 5px;
+                border-radius: 5px;
+                font-size: 18px;
+            }
+            #menu {
+                margin-left: 6%;
+                margin-right: 6%;
+            }
+
+            #footer{
+                background-color: #dde1f3;
+                height: 300px;
+                display: flex;
+                
+            }
+            #footer h2{
+                display: inline-block;
+                margin-left: 5%;
+                margin-top: 7%;
+                width:300px;
+                font-size: 30px;
+            }
+            #footer .help{
+                display: inline-block;
+                margin-left: 10%;
+                margin-top: 2%;
+            }
+            #footer .about{
+                display: inline-block;
+                margin-left: 10%;
+                margin-top: 2%;
+                
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        
+            <div id="logo">
+                <a href="hw07.html"><img src="img/letoile.png"></a>
+            </div>
+            <div id="top_left">
+                <img src="img/menu.png">
+            </div>
+            <div id="top_right">
+                <img src="img/order.png" title="order">
+                <img src="img/profile.png" title="login"></a>
+                <img src="img/favorite.png" title="favorite">
+                <img src="img/shop.png" title="shop">
+            </div>
+        
+            <br><p></p>
+            <input id="search" type="text" name="name" placeholder="Search...">
+           
+            <div>
+                <br><p></p>
+                <div id="frontpage">
+                    <img src="img/frontpage.png" alt="livingroom" align="left">
+                    <br>
+                    <p class="s1">Design your own livingroom!</p>
+                    <p class="s2">Create a warm indoor place where you can <br>enjoy your daily life.</p><br>
+                    <button input type="button" id="btn" onclick="alert('Coming Soon~')" value="alert">Create</button>
+                </div>
+            </div>
+
+            <br><p></p>
+            <div id="menu">
+                <a href="bedroom.html" target="house"><img src="img/bedroom.png" alt="bedroom"></a>
+                <a href="livingroom.html" target="house"><img src="img/livingroom.png" alt="livingroom"></a>
+                <a href="bathroom.html" target="house"><img src="img/bathroom.png" alt="kitchen"></a>
+            
+                <p></p>
+                <iframe  width="1320px" height="1600px" name="house" frameborder="0"></iframe>
+            </div>
+
+            <div id=footer>
+                <h2><img src="img/letoile.png" width="100px" height="30px"><br>Join L'étoile Family</h2>
+                <div class="help">
+                    <h4>Help</h4>
+                    <p>Customer Service</p>
+                    <p>FAQ</p>
+                    <p>My orders</p>
+                    <p>Contatct Us</p>
+                    <p>Feedback</p>
+                </div>
+
+                <div class="about">
+                    <h4>About L'étoile</h4>
+                    <p>This is L'étoile</p>
+                    <p>Newsroom</p>
+                    <p>Life at Home</p>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+        
+    </body>
+</html>
